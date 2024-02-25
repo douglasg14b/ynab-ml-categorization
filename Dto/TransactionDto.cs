@@ -49,7 +49,7 @@ public class TransactionsResponseDataDto
 }
 
 // Root myDeserializedClass = JsonSerializer.Deserialize<Root>(myJsonResponse);
-public class TransactionDto
+public record TransactionDto
 {
     [JsonPropertyName("id")]
     public string Id { get; set; }
@@ -94,13 +94,13 @@ public class TransactionDto
     public string CategoryName { get; set; }
 
     [JsonPropertyName("transfer_account_id")]
-    public string TransferAccountId { get; set; }
+    public string? TransferAccountId { get; set; }
 
     [JsonPropertyName("transfer_transaction_id")]
-    public string TransferTransactionId { get; set; }
+    public string? TransferTransactionId { get; set; }
 
     [JsonPropertyName("matched_transaction_id")]
-    public string MatchedTransactionId { get; set; }
+    public string? MatchedTransactionId { get; set; }
 
     [JsonPropertyName("import_id")]
     public string ImportId { get; set; }

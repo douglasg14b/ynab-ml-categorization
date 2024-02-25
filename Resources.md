@@ -1,0 +1,5 @@
+- https://medium.com/dnb-data-science-hub/company-name-matching-6a6330710334
+- https://www.kaggle.com/datasets/peopledatalabssf/free-7-million-company-dataset
+- https://medium.com/powrbot/the-ultimate-list-of-company-databases-registers-bfd779b4600f
+- https://corporation.directory/
+- https://opencorporates.com/
